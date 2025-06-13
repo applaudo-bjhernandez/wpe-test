@@ -1,4 +1,4 @@
-name: Deploy to DEV WP Engine
+name: Deploy to WP Engine
 
 on:
   push:
@@ -19,9 +19,9 @@ jobs:
           if [[ $GITHUB_REF == 'refs/heads/develop' ]]; then
             echo "WPE_ENV=tlbackenddedev" >> $GITHUB_ENV
           elif [[ $GITHUB_REF == 'refs/heads/stage' ]]; then
-            echo "WPE_ENV=tlbackendedestage" >> $GITHUB_ENV
+            echo "WPE_ENV=tlbackenddedev" >> $GITHUB_ENV # TODO: Update to correct environment
           elif [[ $GITHUB_REF == 'refs/heads/main' ]]; then
-            echo "WPE_ENV=tlbackendedeprod" >> $GITHUB_ENV
+            echo "WPE_ENV=tlbackenddedev" >> $GITHUB_ENV # TODO: Update to correct environment
           fi
 
       - name: Deploy to WP Engine
