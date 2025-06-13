@@ -1,0 +1,112 @@
+{
+    "packages": [
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "version_normalized": "1.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2021-05-03T11:20:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "install-path": "../psr/log"
+        },
+        {
+            "name": "rebelcode/composer-cleanup-plugin",
+            "version": "v0.2",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RebelCode/composer-cleanup-plugin.git",
+                "reference": "3677eb752eb8ca042ba6f725b33f419b93857a62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RebelCode/composer-cleanup-plugin/zipball/3677eb752eb8ca042ba6f725b33f419b93857a62",
+                "reference": "3677eb752eb8ca042ba6f725b33f419b93857a62",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0"
+            },
+            "time": "2021-02-09T13:24:28+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": [],
+                "class": "RebelCode\\Composer\\CleanupPlugin"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RebelCode\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "RebelCode",
+                    "email": "dev@rebelcode.com"
+                },
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "A composer cleanup plugin, to remove tests and documentation to save space",
+            "support": {
+                "source": "https://github.com/RebelCode/composer-cleanup-plugin/tree/v0.2"
+            },
+            "install-path": "../rebelcode/composer-cleanup-plugin"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

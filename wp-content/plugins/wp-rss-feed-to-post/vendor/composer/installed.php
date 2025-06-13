@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'wprss/feed-to-post',
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => '237237ab76082e5a9057e411737fe9a9c2059f7d',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'psr/log' => array(
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'rebelcode/composer-cleanup-plugin' => array(
+            'pretty_version' => 'v0.2',
+            'version' => '0.2.0.0',
+            'reference' => '3677eb752eb8ca042ba6f725b33f419b93857a62',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../rebelcode/composer-cleanup-plugin',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wprss/feed-to-post' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => '237237ab76082e5a9057e411737fe9a9c2059f7d',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

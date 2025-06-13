@@ -1,0 +1,22 @@
+.wpra-grid-editor {
+  display: flex;
+
+  &__preview {
+    flex-shrink: 0;
+    width: 280px;
+    flex-basis: 280px;
+    padding-right: 20px;
+
+    > h3 {
+      margin: 0 0 15px;
+    }
+
+    audio {
+      pointer-events: none;
+    }
+  }
+
+  &__config {
+    flex-grow: 1;
+  }
+}

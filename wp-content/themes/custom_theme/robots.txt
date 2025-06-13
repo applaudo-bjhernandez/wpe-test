@@ -1,0 +1,23 @@
+User-agent: *
+# Allow access to custom API endpoints on the frontend
+Allow: /custom/related-bios
+Allow: /custom/toolkit-categories
+Allow: /custom/speakers
+Allow: /custom/resources
+Allow: /news-feed-categories
+Allow: /feed-items
+
+# Allow access to frontend URLs that correspond to custom post types content
+Allow: /bios/
+Allow: /article/
+Allow: /event/
+Allow: /episode/
+Allow: /allie/
+Allow: /resource/
+Allow: /conference/
+
+# Block access to irrelevant URLs, if necessary
+Disallow: /wp-json/
+
+# Allow access to the sitemap on the main domain
+Sitemap: https://truthandliberty.net/sitemap.xml

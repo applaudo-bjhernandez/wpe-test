@@ -1,0 +1,80 @@
+@import "grid-editor";
+
+.wpra-settings-group {
+  position: relative;
+
+  &__header {
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+
+    background: white;
+    border: 1px solid #eee;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+      background: #fafafa;
+    }
+
+    input {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &__sort {
+    padding: 10px;
+    opacity: .5;
+    margin-right: 10px;
+    &--disabled {
+      opacity: .2;
+    }
+    &:not(.wpra-settings-group__sort--disabled):hover {
+      opacity: .8;
+      cursor: grab;
+    }
+  }
+
+  &__title {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  &__description {
+    opacity: .5;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  &__collapse {
+    margin-left: auto;
+    opacity: .5;
+
+    &:hover {
+      opacity: .8;
+      cursor: pointer;
+    }
+  }
+
+  &__locked &__header {
+    cursor: default;
+  }
+
+  &__body {
+    padding: .75rem 1.25rem;
+    background: #f6f7f8;
+
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+
+    .form-input {
+      align-items: baseline;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

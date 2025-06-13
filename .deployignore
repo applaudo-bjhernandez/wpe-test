@@ -1,0 +1,10 @@
+/*.*
+/*
+!/**/
+
+.git/
+.github/
+
+wp-content/ai1wm-backups/
+wp-content/ewww/
+wp-content/uploads/

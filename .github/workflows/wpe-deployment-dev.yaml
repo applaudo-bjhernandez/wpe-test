@@ -1,0 +1,21 @@
+name: Deploy to DEV WP Engine
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy to WP Engine
+        uses: wpengine/github-action-wpe-site-deploy@v3
+        with:
+          WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+          WPE_ENV: tlbackenddedev
+          SRC_PATH: "wp-content/"
+          REMOTE_PATH: "wp-content/"
+          FLAGS: -azvr --inplace --exclude=.* --exclude-from=.deployignore
+          CACHE_CLEAR: TRUE

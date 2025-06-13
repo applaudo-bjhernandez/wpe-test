@@ -1,0 +1,18 @@
+{
+  "name": "wordpress-headless",
+  "version": "1.0.0",
+  "description": "wordpress headless themes",
+  "scripts": {
+    "dev": "webpack --mode=development --progress",
+    "watch": "webpack --mode=development --watch",
+    "build": "webpack --mode=production --progress"
+  },
+  "author": "Applaudo Studios",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^5.1.4",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}

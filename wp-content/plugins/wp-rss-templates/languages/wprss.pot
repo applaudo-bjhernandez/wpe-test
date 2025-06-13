@@ -1,0 +1,248 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP RSS Aggregator - Templates\n"
+"POT-Creation-Date: 2021-04-26 12:24+0200\n"
+"PO-Revision-Date: 2021-04-26 12:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-rss-templates.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+
+#: src/AddonModule.php:259
+msgid "Whole card is clickable"
+msgstr ""
+
+#: src/AddonModule.php:260
+msgid "Only the title is clickable"
+msgstr ""
+
+#: src/AddonModule.php:263
+msgid "Use the feed source's default featured image"
+msgstr ""
+
+#: src/AddonModule.php:264
+msgid "Show no thumbnail"
+msgstr ""
+
+#: src/AddonModule.php:267
+msgid "Excerpt on the right of the image, title above"
+msgstr ""
+
+#: src/AddonModule.php:268
+msgid "Title and excerpt on the right of the image"
+msgstr ""
+
+#: src/AddonModule.php:269
+msgid "Wrap the excerpt around the image"
+msgstr ""
+
+#: src/AddonModule.php:270
+msgid "Image above title and excerpt"
+msgstr ""
+
+#: src/AddonModule.php:286
+#: src/Templates/Types/ExcerptThumbnailsTemplateType.php:103
+msgid "Read more"
+msgstr ""
+
+#: src/AddonModule.php:411
+msgid "The image will be used as a background with the text appearing over it."
+msgstr ""
+
+#: src/AddonModule.php:412
+msgid ""
+"Date, author and source will be displayed on separate lines rather than next "
+"to each other on a single line."
+msgstr ""
+
+#: src/AddonModule.php:413 src/AddonModule.php:428
+msgid "The number of words displayed for the excerpt."
+msgstr ""
+
+#: src/AddonModule.php:414
+msgid "Check this box to make whole grid item clickable."
+msgstr ""
+
+#: src/AddonModule.php:415
+msgid ""
+"Always align the last element in the template to the bottom of the grid. "
+"This is useful when, for example, two items have different excerpt lengths "
+"or image sizes. It keeps the alignment of each element consistent throughout "
+"the grid."
+msgstr ""
+
+#: src/AddonModule.php:416
+msgid ""
+"The maximum number of columns. The actual number of columns shown may be "
+"lower depending on the page width and screen size. Recommended values are "
+"between 2 and 5. "
+msgstr ""
+
+#: src/AddonModule.php:417
+msgid "Check this box to enable a border around each item in the grid."
+msgstr ""
+
+#: src/AddonModule.php:418
+msgid ""
+"Check this box to make the image fill the entire image area. Note that your "
+"image might be cropped depending on its size and aspect ratio."
+msgstr ""
+
+#: src/AddonModule.php:419
+msgid ""
+"Check this box to replace the image with an embedded video, if a video embed "
+"is available in the feed item."
+msgstr ""
+
+#: src/AddonModule.php:422
+msgid ""
+"Check this box to add a 'Read more' link at the end of the excerpt that "
+"links to the original source."
+msgstr ""
+
+#: src/AddonModule.php:423
+msgid "Set your own text to appear as a link to the original source."
+msgstr ""
+
+#: src/AddonModule.php:424
+msgid ""
+"Check this box to link the image to the feed item's permalink (original "
+"source)."
+msgstr ""
+
+#: src/AddonModule.php:427
+msgid "Check this box to show excerpts in the template."
+msgstr ""
+
+#: src/AddonModule.php:429
+msgid ""
+"The characters that will appear at end of excerpt, before the \"Read more\" "
+"link (if enabled)."
+msgstr ""
+
+#: src/AddonModule.php:431
+msgid "Check this box to show thumbnail images in the template."
+msgstr ""
+
+#: src/AddonModule.php:432
+msgid ""
+"Choose how you want the title, thumbnail image, and excerpt to be displayed."
+msgstr ""
+
+#: src/AddonModule.php:433
+msgid "The thumbnail image's width in pixels."
+msgstr ""
+
+#: src/AddonModule.php:434
+msgid "The thumbnail image's height in pixels."
+msgstr ""
+
+#: src/AddonModule.php:435
+msgid ""
+"How the template should adapt when a feed item has no thumbnail image "
+"available."
+msgstr ""
+
+#: src/Templates/Types/ExcerptThumbnailsTemplateType.php:64
+msgid "Excerpt & Thumbnails"
+msgstr ""
+
+#: src/Templates/Types/GridTemplateType.php:101
+msgid "Grid"
+msgstr ""
+
+#: src/Templates/Types/GridTemplateType.php:202
+msgid "read more"
+msgstr ""
+
+#: src/Templates/Types/GridTemplateType.php:248
+msgid "Source:"
+msgstr ""
+
+#: src/Templates/Types/GridTemplateType.php:260
+msgid "By"
+msgstr ""
+
+#: src/Templates/Types/GridTemplateType.php:268
+msgid "Published on:"
+msgstr ""
+
+#: wp-rss-templates.php:106
+#, php-format
+msgid ""
+"You need to install and activate the %1$s plugin for the %2$s addon to work."
+msgstr ""
+
+#: wp-rss-templates.php:121
+#, php-format
+msgid ""
+"You need to update the %1$s plugin to at least version %2$s for the %3$s "
+"addon to work."
+msgstr ""
+
+#: wp-rss-templates.php:147
+#, php-format
+msgid "The %1$s plugin requires WordPress at version %2$s or higher."
+msgstr ""
+
+#: templates/feeds/et/default-pagination.twig:7
+#: templates/feeds/grid/default-pagination.twig:7
+msgid "Older posts"
+msgstr ""
+
+#: templates/feeds/et/default-pagination.twig:14
+#: templates/feeds/grid/default-pagination.twig:14
+msgid "Newer posts"
+msgstr ""
+
+#: templates/feeds/et/feed-list.twig:13 templates/feeds/grid/feed-list.twig:10
+msgid "No feed items found."
+msgstr ""
+
+#: templates/feeds/et/numbered-pagination.twig:13
+#: templates/feeds/grid/numbered-pagination.twig:13
+msgid "Previous"
+msgstr ""
+
+#: templates/feeds/et/numbered-pagination.twig:39
+#: templates/feeds/grid/numbered-pagination.twig:39
+msgid "Next"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP RSS Aggregator - Templates"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.wprssaggregator.com/"
+"#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpraplugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds premium templates to WP RSS Aggregator."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RebelCode"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wprssaggregator.com"
+msgstr ""

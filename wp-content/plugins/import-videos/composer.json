@@ -1,0 +1,12 @@
+{
+  "name": "tnl/import-videos",
+  "require": {
+    "guzzlehttp/guzzle": "^7.8.1"
+  },
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "TnL\\ImportVideos\\": "src/"
+    }
+  }
+}
