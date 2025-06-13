@@ -1,0 +1,35 @@
+name: Deploy to WP Engine
+
+on:
+  push:
+    branches:
+      - develop
+      - stage
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Determine environment
+        id: determine_env
+        run: |
+          if [[ $GITHUB_REF == 'refs/heads/develop' ]]; then
+            echo "WPE_ENV=tlbackenddedev" >> $GITHUB_ENV
+          elif [[ $GITHUB_REF == 'refs/heads/stage' ]]; then
+            echo "WPE_ENV=tlbackenddedev" >> $GITHUB_ENV # TODO: Update to correct environment
+          elif [[ $GITHUB_REF == 'refs/heads/main' ]]; then
+            echo "WPE_ENV=tlbackenddedev" >> $GITHUB_ENV # TODO: Update to correct environment
+          fi
+
+      - name: Deploy to WP Engine
+        uses: wpengine/github-action-wpe-site-deploy@v3
+        with:
+          WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+          WPE_ENV: ${{ env.WPE_ENV }}
+          SRC_PATH: "wp-content/"
+          REMOTE_PATH: "wp-content/"
+          FLAGS: -azvr --inplace --exclude=.* --exclude-from=.deployignore
+          CACHE_CLEAR: TRUE
